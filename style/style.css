@@ -1,0 +1,642 @@
+/*rgb(18,67,153);*/
+*{
+    font-family: 'roboto';
+    margin: 0;
+}
+body {
+    background-color: #f2f1ef; 
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0.5rem;
+}
+
+.botoningresar{
+    background-color: #2350a9;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-right: 2rem;
+    transition: all 0.3s;
+}
+.botoningresar:hover{
+    background-color: #2d5ec0;
+}
+
+.publicidades{
+    width:100%;
+}
+
+.contenedorApp{
+    margin-top: 2rem;
+    background-color: white;
+    width: 30%;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    box-shadow: 11px 19px 18px 7px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 11px 19px 18px 7px rgba(0,0,0,0.18);
+    -moz-box-shadow: 11px 19px 18px 7px rgba(0,0,0,0.18);
+}
+
+.tituloApp{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.nombreApp{
+    font-size: 1rem;
+}
+
+.imagenApp{
+    height: 10rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    
+}
+
+#app{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+
+.secciones{
+    padding-top: 15rem;
+}
+
+.logo{
+    margin-left: 5rem;
+    height: 4rem;
+    transition: all 0.3s;
+}
+.logo:hover{
+    transform: scale(1.01);
+}
+
+.tituloTextos{
+    font-family: aeromedium;
+    letter-spacing: 0.3rem;
+    color: rgb(18,67,153);
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.textoTextos{
+    font-family: aerolight;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+    background-position:center;
+    height: 10rem;
+    margin-top: 20rem;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.divFooter{
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.titulofooter{
+    font-family: aeromedium;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorfooter{
+    margin-top: 10rem;
+}
+
+.infofooter{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    justify-content: space-around;
+}
+
+.infofooterizq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contenedorredes{
+    display: flex;
+}
+
+.textoinfofooter{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+.textomininfofooter{
+    color:rgb(3, 3, 3);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: -0.2rem;
+}
+
+.textoinferiorfooter{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto';
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.iconosredesfooter{
+    height: 3rem;
+    transition: all 0.2s;
+}
+.iconosredesfooter:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.formulariofooter{
+    width: 40%;
+}
+.textocolor{
+    color: white;
+    margin-top: 0.5rem;
+    font-family: 'Roboto';
+    margin-bottom: 0.5rem;
+}
+.btncolor{
+    background-color: rgb(16, 61, 139);
+    color: white;
+    margin-top: 1rem;
+}
+.btncolor:hover{
+    background-color: white;
+    color: #4b4b4b;
+}
+.formcolor{
+    opacity: 0.2;
+}
+.ancholabel{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1730px) {
+
+    .contenedorHabilidadesext{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1210px) {
+
+    .contenedorRecorrido{
+        margin-top: 6rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .divRecorrido{
+        position: relative;
+        width: 20rem;
+        height: auto;
+        margin: 1rem 2rem 5rem 0;
+        overflow: hidden;
+        padding-left: 1rem;
+        border-left: 0.1rem solid #4b4b4b;
+    }
+
+    .infofooter{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .contenedorredes{
+        justify-content: center;
+    }
+
+    header{
+        height: 47rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    header{
+        height: 47rem;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fotoprincipalbyn2_700.jpg');
+        background-position:right;
+    }
+    .logo{
+        margin: 1rem 0 0 2rem;
+        height: 4rem;
+    }
+    .secciones{
+        padding-top: 10rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containeringreso{
+    margin: 5rem auto 5rem auto;
+    width: 40rem;
+    height: 25rem;
+    background-color: #ffffff;
+}
+
+.containerObjetos{
+    width: 80%;
+    padding-top: 2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contenedorlabel{
+    background-color: #ffffff;   
+}
+
+.labelingreso{
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.inputingreso{
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.contenedorlabel{
+    background-color: #ffffff;
+    padding-top: 2rem;
+}
+
+.tituloslabel{
+    margin:0;
+    color: #9d9d9d;
+    font-size: 0.8rem;
+}
+
+.textolabel{
+    margin-top: 1rem;
+    color: #9d9d9d;
+    font-size: 0.8rem;
+}
+
+.textoSecuLabel{
+    display: flex;
+    margin-top: 1rem;
+    color: #9d9d9d;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.botonIniciarSesion{
+background-color: #2350a9;
+color: white;
+border:none;
+border-radius: 0.2rem;
+padding: 0.5rem 1rem;
+width: 100%;
+margin-top: 3rem;
+transition: all 0.3s;
+}
+.botonIniciarSesion:hover{
+    background-color: #2d5ec0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerIngresado{
+    margin: 5rem auto 5rem auto;
+    width: 95%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.containerIngresadoIzquierdo{
+    background-color: #ffffff;
+    width: 15%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.titulosIngresado{
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: block;
+    text-align: left;
+    font-weight: 800;
+    border-bottom: 0.1rem solid #2d5ec0;
+}
+
+.linkSecundarioIngresado{
+    text-decoration: none;
+}
+
+.titulosSecundariosIngresado{
+    color: #000000;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    text-align: left;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+.titulosSecundariosIngresado:hover{
+    border-left: 0.4rem solid #2d5ec0;
+    color: #2d5ec0;
+}
+
+.titulosCerrarSesionIngresado{
+    color: #000000;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.titulosCerrarSesionIngresado:hover{
+    border-left: 0.8rem solid #2d5ec0;
+}
+
+.containerIngresadoDerecho{
+    background-color: #f7f7f7;
+    width: 85%;
+    height: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column
+}
+
+.ContainerDivisionIngresado1{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ContainerDivisionIngresado2{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulosPrincipalIngresado{
+    color: #9d9d9d;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.ContainerDivisionIngresado3{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.3rem solid #2d5ec0;
+}
+
+.montoIngresado{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ContainerDivisionIngresado2Movimientos{
+    height: 90%;
+}
+
+.elemento0Movimientos{
+    background-color: #f3f3f3;
+    height: 15%;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.elemento1Movimientos{
+    background-color: #e2e2e2;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+}
+.elemento2Movimientos{
+    background-color: #f3f3f3;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+}
+
+.Container0Movimientos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+    font-weight: 700;
+}
+
+.elementoInternosMovimientos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+}
+
+.divTransferenciaIngresados{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 1rem 0;
+    align-items: center
+}
+
+.realizarTransferencia{
+    background-color: #2d5ec0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 0.3rem;
+    width: 17rem;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.linkTransferenciaIngresado{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedorCajaAhorro{
+    border-radius: 0.3rem;
+    border-bottom: 0.15rem solid #2d5ec0;
+    height: 7rem;
+    display: flex;
+    padding-top: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.descripcionCadaAhorro{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #d3d3d3;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+.containeringresoRegistro{
+    margin: 5rem auto 5rem auto;
+    width: 40rem;
+    height: 38rem;
+    background-color: #ffffff;
+}
+
+.containerObjetosRegistro{
+    width: 80%;
+    padding-top: 2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
